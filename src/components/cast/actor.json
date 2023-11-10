@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_cast_actors",
+  "info": {
+    "displayName": "Actor",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "Cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Bio": {
+      "type": "blocks"
+    }
+  }
+}

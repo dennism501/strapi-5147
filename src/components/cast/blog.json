@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_cast_blogs",
+  "info": {
+    "displayName": "Blog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
