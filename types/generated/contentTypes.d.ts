@@ -375,7 +375,6 @@ export interface ApiBlogBlog extends Schema.CollectionType {
   };
   attributes: {
     Title: Attribute.String;
-    title: Attribute.String;
     Cast: Attribute.DynamicZone<['cast.actor']>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
